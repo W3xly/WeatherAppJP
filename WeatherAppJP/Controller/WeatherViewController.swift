@@ -56,7 +56,7 @@ class WeatherViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         configureUI()
-        fetchWeather(byCity: "Nový Hrozenkov1")
+        fetchWeather(byCity: "Olomouc")
     }
     
     //MARK: - Actions
